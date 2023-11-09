@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+table th {
+  padding: 5px;
+  border: 2px solid black;
+  background-color: lightcyan;
+}
+
+table td {
+  text-align: center;
+  border: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#cierreSesion {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+form {
+  width: 350px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: auto;
+}
+
+form input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
