@@ -48,7 +48,7 @@ INSERT INTO `gorras` (`cod`, `stock`, `color`, `nom_imagen`, `imagen`) VALUES
 
 CREATE TABLE `usuarios` (
   `usuario` varchar(12) NOT NULL,
-  `contasena` varchar(200) NOT NULL,
+  `contrasena` varchar(200) NOT NULL,
   `rol` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
